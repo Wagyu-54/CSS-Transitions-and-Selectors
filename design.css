@@ -1,6 +1,4 @@
-/* ----------------------------
-   GLOBAL STYLES
------------------------------ */
+/* GLOBAL STYLES */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -8,9 +6,7 @@ body {
     background-color: #ffffff;
 }
 
-/* ----------------------------
-   HEADER
------------------------------ */
+/*  HEADER */
 
 header {
     background-color: red;
@@ -21,9 +17,7 @@ header {
     font-weight: bold;
 }
 
-/* ----------------------------
-   NAVIGATION
------------------------------ */
+/* NAVIGATION */
 
 nav {
     width: 180px;
@@ -52,9 +46,7 @@ nav button:hover {
     background-color: darkblue;
 }
 
-/* ----------------------------
-   RECENT ARTICLES DROPDOWN
------------------------------ */
+/* RECENT ARTICLES DROPDOWN */
 
 #jumpMenu {
     list-style: none;
@@ -86,9 +78,7 @@ nav button:hover {
     background-color: navy;
     color: white;
 }
-/* ----------------------------
-   MAIN CONTENT
------------------------------ */
+/* MAIN CONTENT */
 
 main {
     margin-left: 200px;
@@ -99,9 +89,7 @@ h1 {
     text-align: center;
 }
 
-/* ----------------------------
-   ARTICLE LAYOUT
------------------------------ */
+/* ARTICLE LAYOUT */
 
 #container {
     display: grid;
@@ -109,9 +97,7 @@ h1 {
     gap: 20px;
 }
 
-/* ----------------------------
-   ARTICLE STYLE
------------------------------ */
+/* STYLE */
 
 article {
     background-color: #f5f5f5;
@@ -134,9 +120,6 @@ article:hover {
     max-height: 1000px;
     background-color: #eaeaea;
 }
-/* ----------------------------
-   FIRST LETTER STYLING
------------------------------ */
 
 /* First letter of main article text only */
 
@@ -146,9 +129,7 @@ article p:first-of-type::first-letter {
     font-weight: bold;
 }
 
-/* ----------------------------
-   READ MORE + ARROW
------------------------------ */
+/*  READ MORE + ARROW*/
 
 /* Only Google links */
 
@@ -163,7 +144,7 @@ article a[href*="google.com"] {
 
 article a[href*="google.com"]::after {
     content: "";
-    background-image: url("arrowarrow.png");
+    background-image: url("arrow.png");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -175,9 +156,7 @@ article a[href*="google.com"]::after {
     top: 2px;
 }
 
-/* ----------------------------
-   THANK YOU LINK
------------------------------ */
+/* THANK YOU LINK */
 
 #thanks {
     text-align: right;
