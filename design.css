@@ -134,3 +134,69 @@ article:hover {
     max-height: 1000px;
     background-color: #eaeaea;
 }
+/* ----------------------------
+   FIRST LETTER STYLING
+----------------------------- */
+
+/* First letter of main article text only */
+
+article p:first-of-type::first-letter {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* ----------------------------
+   READ MORE + ARROW
+----------------------------- */
+
+/* Only Google links */
+
+article a[href*="google.com"] {
+    position: relative;
+    padding-right: 25px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Arrow image */
+
+article a[href*="google.com"]::after {
+    content: "";
+    background-image: url("arrowarrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 16px;
+    height: 16px;
+
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+/* ----------------------------
+   THANK YOU LINK
+----------------------------- */
+
+#thanks {
+    text-align: right;
+    margin-top: 20px;
+}
+
+#thanks a {
+    background-color: lightblue;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/* ----------------------------
+   FOOTER
+----------------------------- */
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 14px;
+}
