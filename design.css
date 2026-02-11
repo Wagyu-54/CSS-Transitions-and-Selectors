@@ -33,3 +33,33 @@ nav {
     padding-top: 10px;
 }
 
+/* Navigation buttons */
+
+nav button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Button hover */
+
+nav button:hover {
+    background-color: darkblue;
+}
+
+/* ----------------------------
+   RECENT ARTICLES DROPDOWN
+----------------------------- */
+
+#jumpMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background-color: goldenrod;
+}
